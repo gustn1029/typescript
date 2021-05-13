@@ -72,4 +72,9 @@ x = ['hello', 12];
 const person: [string, number, number] = ['Kim', 12, 1];
 const [first, second, third] = person;
 ```
-tuple 은 typescript 타입으로
+tuple 은 typescript 타입으로 array 를   
+좀 더 명확하게 만들 수 있다.  
+
+위에 보이는 것 처럼 [] 안에 타입을 입력하면  
+그 순서에 맞게 타입을 입력해야 되고, 입력한 타입 수 만큼만  
+array를 만들 수 있다.
